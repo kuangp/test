@@ -1,9 +1,7 @@
 {
   "packageRules": [
     {
-      "sourceUrlPrefixes": [
-        "https://github.com/facebook/jest"
-      ],
+      "extends": "monorepo:jest",
       "packageNames": [
         "@types/jest"
       ],
