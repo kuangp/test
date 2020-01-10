@@ -1,4 +1,5 @@
 {
+  "extends": "group:monorepos",
   "packageRules": [
     {
       "extends": "group:jestMonorepo",
