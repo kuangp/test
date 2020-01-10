@@ -1,7 +1,7 @@
 {
   "packageRules": [
     {
-      "extends": "monorepo:jest",
+      "extends": "group:jestMonorepo",
       "packageNames": [
         "@types/jest"
       ],
