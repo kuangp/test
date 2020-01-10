@@ -1,0 +1,12 @@
+{
+  "extends": "group:monorepos",
+  "packageRules": [
+    {
+      "extends": "group:jestMonorepo",
+      "packageNames": [
+        "@types/jest"
+      ],
+      "groupName": "jest"
+    }
+  ]
+}
